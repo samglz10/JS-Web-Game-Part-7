@@ -35,7 +35,7 @@
         element.src = `./assets/red-character/north.gif`
         await sleep(time)
         stop()
-    }
+    }ls
 
     const walkWest = async () => {
         direction = 'west'
@@ -66,7 +66,7 @@
     }
 }
 
-function sleep(time){
+ sleep(time) => {
     return new Promise(resolve => {
         setTimeout(resolve, time)) =>
         resolve 
